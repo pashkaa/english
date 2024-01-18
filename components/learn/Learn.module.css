@@ -1,0 +1,44 @@
+.learnContainer {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.learnContainer2 {
+    width: 1280px;
+}
+
+.learnContainer2__text {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.learnContainer2__level p{
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.learnContainer2__level_table {
+    margin-top: 10px;
+    width: 1280px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    align-items: center;
+    justify-content: space-between
+}
+
+.learnContainer2__level_table span {
+    font-size: 24px;
+}
+
+.learnContainer2__level_table__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

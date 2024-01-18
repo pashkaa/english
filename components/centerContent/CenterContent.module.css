@@ -1,0 +1,82 @@
+.centerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centerContainer2 {
+    min-height: 90vh;
+    min-width: 1280px;
+}
+
+.centerContainer2 section p {
+    font-family: "Comfortaa", sans-serif;
+    width: 1280px;
+    text-align: center;
+}
+
+.english_learner {
+    color: #4d7c7f;
+}
+
+.centerContainer2__first_paragraph {
+    font-size: 30px;
+    padding-top: 120px;
+}
+
+.centerContainer2__second_paragraph{
+    font-size: 22px;
+    padding-top: 40px;
+}
+
+.secondSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 32px;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.differentSides {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: row;
+    width: 1280px;
+}
+
+.leftSide, .rightSide {
+    margin-top: 40px;
+    width: 600px;
+    font-size: 22px;
+    text-align:
+}
+
+.leftSide h2, .rightSide h2 {
+    width: 600px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.buttonContainer {
+    margin-top: 40px;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 400px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 22px;
+}
+
+.button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

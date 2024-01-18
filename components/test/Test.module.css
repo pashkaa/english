@@ -1,0 +1,116 @@
+.container {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    width: 1280px;
+    display: flex;
+    margin-top: 40px;
+    font-family: "Genos", sans-serif;
+    flex-direction: column;
+}
+
+.container2__text {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container2__text h2 {
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.container2__test {
+    font-family: "Comfortaa", sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+}
+
+.container2__test_container {
+    margin-top: 10px;
+    width: 500px;
+    height: 60px;
+    padding: 10px;
+    background-color: #F6F6F6;
+    border: 1px #CCC solid;
+}
+
+.container2__test__container_text1 {
+    color: #000;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.container2__test_gtest {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gtest {
+    height: 40px;
+    font-size: 18px;
+}
+
+.gtest p select {
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container2__buttonContainer {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+}
+
+.container2__buttonContainer button {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    color: #a0e4e9;
+    font-size: 24px;
+    font-family: "Genos", sans-serif;
+    background-color: #002A32;
+}
+
+.container2__buttonContainer button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container2__buttonContainer button:disabled {
+    cursor: default;
+    text-decoration: none;
+}
+
+.container_flex {
+    display: flex;
+}
+
+.container2__answers {
+    width: 400px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 41px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F6F6;
+    border: 1px #CCC solid;
+    font-size: 24px;
+}
+
+.container2__test_gtest_text {
+    font-size: 20px;
+    width: 600px;
+}
+
+.container2__test_gtest_text select {
+    margin-left: 10px;
+    margin-right: 10px;
+}

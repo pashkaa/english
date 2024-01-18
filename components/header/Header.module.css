@@ -1,0 +1,21 @@
+.headerContainer {
+    color: #a0e4e9;
+    font-size: 28px;
+    font-family: "Genos", sans-serif;
+    height: 60px;
+    background-color: #002A32;
+    flex: 0 0 auto;
+}
+
+.nav_ul {
+    height: 60px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_ul li:hover {
+    cursor: pointer;
+    text-decoration: underline #fff;
+}
